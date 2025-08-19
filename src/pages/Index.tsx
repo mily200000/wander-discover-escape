@@ -1,24 +1,12 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import SearchBar from "@/components/SearchBar";
-import Categories from "@/components/Categories";
-import FeaturedTrips from "@/components/FeaturedTrips";
-import Footer from "@/components/Footer";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <Hero />
-      
-      {/* Search Section */}
-      <section className="py-16 px-4 -mt-20 relative z-10">
-        <SearchBar />
-      </section>
-
-      <Categories />
-      <FeaturedTrips />
-      <Footer />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
